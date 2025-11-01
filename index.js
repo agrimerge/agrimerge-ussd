@@ -2,7 +2,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const Redis = require('ioredis');
-const redis = new Redis();
+const redis = new Redis('redis://default:AUDOAAIncDJiNTljNTUyMGEyZTQ0ZTk5YWI3MzViOWVlMTNiY2FmMHAyMTY1OTA@normal-hen-16590.upstash.io:6379', { tls: {} });
 
 const app = express();
 app.use(bodyParser.json());
