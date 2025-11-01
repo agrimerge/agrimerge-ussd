@@ -17,6 +17,11 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true })); // Required for some gateways that send form data
 
+// Health check or homepage route
+app.get('/', (req, res) => {
+  res.send('✅ Agrimerge USSD server is running!');
+});
+
 app.post('/api/ussd/webhook', async (req, res) => {
   try {
     // 1. Extract parameters from the gateway's request
