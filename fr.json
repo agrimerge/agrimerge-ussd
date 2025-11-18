@@ -1,0 +1,27 @@
+{
+    "welcome": "Bienvenue chez Agrimerge",
+    "language_select": "Sélectionnez la langue :",
+    "languages": {
+        "1": "Kinyarwanda",
+        "2": "Anglais",
+        "3": "Français"
+    },
+    "main_menu": "Sélectionnez une option :",
+    "options": {
+        "1": "Acheter",
+        "2": "Vendre",
+        "3": "Prévisions météorologiques"
+    },
+    "buy_menu": "Sélectionnez un article à acheter :",
+    "sell_menu": "Sélectionnez un article à vendre :",
+    "items": {
+        "1": "Patates douces",
+        "2": "Manioc",
+        "3": "Tomates",
+        "4": "Pommes de terre irlandaises"
+    },
+    "kg_prompt": "Entrez les kilogrammes :",
+    "weather_forecast": "Les prévisions météo pour les 5 prochains jours sont...",
+    "invalid_option": "Option invalide. Veuillez réessayer.",
+    "thank_you": "Merci d'utiliser Agrimerge !"
+}

@@ -1,0 +1,27 @@
+{
+    "welcome": "Welcome to Agrimerge",
+    "language_select": "Select language:",
+    "languages": {
+        "1": "Kinyarwanda",
+        "2": "English",
+        "3": "French"
+    },
+    "main_menu": "Select an option:",
+    "options": {
+        "1": "Buy",
+        "2": "Sell",
+        "3": "Weather Forecast"
+    },
+    "buy_menu": "Select an item to buy:",
+    "sell_menu": "Select an item to sell:",
+    "items": {
+        "1": "Sweet potatoes",
+        "2": "Cassava",
+        "3": "Tomatoes",
+        "4": "Irish potatoes"
+    },
+    "kg_prompt": "Enter kilograms:",
+    "weather_forecast": "Weather forecast for the next 5 days is...",
+    "invalid_option": "Invalid option. Please try again.",
+    "thank_you": "Thank you for using Agrimerge!"
+}

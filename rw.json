@@ -1,0 +1,27 @@
+{
+    "welcome": "Ikaze kuri Agrimerge",
+    "language_select": "Hitamo ururimi:",
+    "languages": {
+        "1": "Kinyarwanda",
+        "2": "Icyongereza",
+        "3": "Igifaransa"
+    },
+    "main_menu": "Hitamo:",
+    "options": {
+        "1": "Kugura",
+        "2": "Kugurisha",
+        "3": "Iteganyagihe"
+    },
+    "buy_menu": "Hitamo icyo ugura:",
+    "sell_menu": "Hitamo icyo ugurisha:",
+    "items": {
+        "1": "Ibijumba",
+        "2": "Imyumbati",
+        "3": "Inyanya",
+        "4": "Ibirayi"
+    },
+    "kg_prompt": "Shyiramo ibiro:",
+    "weather_forecast": "Iteganyagihe ry'iminsi 5 iri imbere ni...",
+    "invalid_option": "Ntabwo aribyo. Ongera ugerageze.",
+    "thank_you": "Murakoze gukoresha Agrimerge!"
+}
