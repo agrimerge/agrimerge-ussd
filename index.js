@@ -1,6 +1,3 @@
-
-
-
 const express = require('express');
 const bodyParser = require('body-parser');
 const fs = require('fs');
@@ -83,7 +80,7 @@ app.post('/ussd', (req, res) => {
         }
     }
 
-    res.set('Content-Type: text/plain');
+    res.set('Content-Type', 'text/plain');
     res.send(response);
 });
 
@@ -91,3 +88,4 @@ const port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
+
