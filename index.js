@@ -15,7 +15,7 @@ const locales = {
 };
 
 app.post('/ussd', (req, res) => {
-    const { sessionId, serviceCode, phoneNumber, text } = req.body;
+    const { sessionId, serviceCode, country code, text } = req.body;
     let response = '';
 
     if (!sessions[sessionId]) {
